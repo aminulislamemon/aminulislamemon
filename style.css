@@ -32,6 +32,9 @@
 body{
     width: 100%;
 }
+
+/* ----------------Header section start ------------------------*/
+
 header{
     display: flex;
     padding: 50px 0 0 50px;
@@ -64,11 +67,18 @@ nav>ul>li>a{
     font-weight: 600;
     margin-left: 25px;
     font-family: 'Poppins';
+    padding-bottom: 5px;
 }
 nav>ul>li>a:hover{
     color: #fbb511;
-    transition: all ease 0.4s;
+    transition: all ease 0.3s;
+    border-bottom: 4px solid #fbb511;
 }
+
+/* ---------------- Header Section End ------------------------*/
+
+
+/* ---------------- Home Section Start ------------------------*/
 .homeContent{
     padding-bottom: 50px;
 }
@@ -134,6 +144,11 @@ nav>ul>li>a:hover{
     width: 65%;
     margin-left: 100px;
 }
+
+/* ---------------- Home Section End ------------------------*/
+
+/* ---------------- Portfolio Section Start ------------------------*/
+
 .services{
     width: 100%;
     padding-top: 15%;
@@ -234,11 +249,16 @@ nav>ul>li>a:hover{
     border-radius: 30px;
     box-shadow: 5px 5px 20px #dddcda;
 }
+/* ---------------- Portfolio Section End ------------------------*/
 
 
+/* ---------------- Footer section ------------------------*/
 footer{
     font-size: 1rem;
     font-weight: 400;
     font-family: "Poppins";
     text-align: center;
+    margin-top: 500px;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
