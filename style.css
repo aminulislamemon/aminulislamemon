@@ -142,6 +142,7 @@ nav>ul>li>a:hover{
 .services-text{
     width: 50%;
     margin-left: 50px;
+    padding-right: 3%;
 }
 .services-text h1{
     font-size: 3rem;
@@ -167,4 +168,77 @@ nav>ul>li>a:hover{
     background-color: #fbb511;
     border-radius: 30px;
     box-shadow: 5px 5px 20px #fbb511;
+}
+.development-cart{
+    width: 30%;
+    height: 400px;
+    float: right;
+    box-shadow: 5px 5px 20px #909092;
+    text-align: center;
+    margin-right: 270px;
+    margin-bottom: 50px;
+    font-family: "Poppins";
+    border-radius: 10px;
+}
+.development-cart img{
+    width: 20%;
+    padding: 50px 5%;
+}
+.development-cart h2{
+    padding-bottom: 3%;
+}
+.development-cart p{
+    padding-bottom: 20px;
+}
+.development-cart a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #000000;
+    font-size: 1rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #dddcda;
+}
+
+
+.webProgramming-cart{
+    width: 30%;
+    height: 400px;
+    float: right;
+    box-shadow: 5px 5px 20px #909092;
+    text-align: center;
+    margin-top: -350px;
+    margin-right: 750px;
+    margin-bottom: 50px;
+    font-family: "Poppins";
+    border-radius: 10px;
+}
+.webProgramming-cart img{
+    width: 20%;
+    padding: 50px 5%;
+}
+.webProgramming-cart h2{
+    padding-bottom: 3%;
+}
+.webProgramming-cart p{
+    padding-bottom: 20px;
+}
+.webProgramming-cart a{
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #000000;
+    font-size: 1rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #dddcda;
+}
+
+
+footer{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
 }
