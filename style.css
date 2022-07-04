@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------- CUSTOM FONTS ------------------------*/
+@font-face {
+    font-family: Chunq;
+    src: url(fonts/Chunq\ 400.ttf);
+}
+@font-face {
+    font-family: Couple Date;
+    src: url(fonts/Couple\ Date\ 400.ttf);
+}
+@font-face {
+    font-family: Fresh Steak;
+    src: url(fonts/Fresh\ Steak\ 400.otf);
+}
+@font-face {
+    font-family: MADEDillan;
+    src: url(fonts/MADEDillan\ 400.otf);
+}
+@font-face {
+    font-family: Pancis-Regular;
+    src: url(fonts/Pancis-Regular\ 400.otf);
+}
+
+body{
+    width: 100%;
+}
+header{
+    display: flex;
+    padding: 50px 0 0 50px;
+}
+header>h1{
+    font-family: Chunq;
+    letter-spacing: 8px;
+    color: #0a1445;
+}
+nav{
+    margin-left: 500px;
+    display: flex;
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+
+
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #0a1445;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 25px;
+    font-family: 'Poppins';
+}
+nav>ul>li>a:hover{
+    color: #fbb511;
+    transition: all ease 0.4s;
+}
+.contact-btn{
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: -10px;
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    padding: 10px 20px ;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 25px;
+    background: linear-gradient(#f1911c, #ffb300);
+    box-shadow: -10px 15px 35px #fdce00e7;
+}
