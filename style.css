@@ -24,6 +24,10 @@
     font-family: Pancis-Regular;
     src: url(fonts/Pancis-Regular\ 400.otf);
 }
+@font-face {
+    font-family: Nineteenth;
+    src: url(fonts/Nineteenth\ \(Personal\ use\).otf);
+}
 
 body{
     width: 100%;
@@ -65,6 +69,9 @@ nav>ul>li>a:hover{
     color: #fbb511;
     transition: all ease 0.4s;
 }
+.homeContent{
+    padding-bottom: 50px;
+}
 .contact-btn{
     text-decoration: none;
     margin-top: 12px;
@@ -72,7 +79,7 @@ nav>ul>li>a:hover{
     font-size: 1.2rem;
     font-weight: 500;
     color: #ffffff;
-    padding: 15px 25px;
+    padding: 15px 30px;
     background-color: #fbb511;
     font-family: "Poppins";
     border-radius: 30px;
@@ -100,6 +107,18 @@ nav>ul>li>a:hover{
     font-family: "Poppins";
     letter-spacing: 1px;
     line-height: 20px;
+    padding-bottom: 50px;
+}
+.hire-me-btn{
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    background-color: #fbb511;
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px #fbb511;
 }
 .span-color{
     color: #ffb700;
@@ -109,8 +128,43 @@ nav>ul>li>a:hover{
     position: absolute;
     bottom: 0;
     left: 50%;
+    display: flex;
 }
 .person{
     width: 65%;
     margin-left: 100px;
+}
+.services{
+    width: 100%;
+    padding-top: 15%;
+
+}
+.services-text{
+    width: 50%;
+    margin-left: 50px;
+}
+.services-text h1{
+    font-size: 3rem;
+    color: #0a1445;
+    font-family: Nineteenth;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+.services-text p{
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-bottom: 50px;
+}
+.download-cv{
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    background-color: #fbb511;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #fbb511;
 }
