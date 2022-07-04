@@ -33,12 +33,16 @@ header{
     padding: 50px 0 0 50px;
 }
 header>h1{
-    font-family: Chunq;
-    letter-spacing: 8px;
+    font-family: "Poppins";
+    letter-spacing: 3px;
     color: #0a1445;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    box-shadow: 5px 10px 20px #909092;
+    border-radius: 50px;
 }
 nav{
-    margin-left: 500px;
+    margin-left: 400px;
     display: flex;
 }
 nav>ul{
@@ -46,7 +50,7 @@ nav>ul{
 }
 nav>ul>li{
     list-style: none;
-
+    margin-top: 20px;
 
 }
 nav>ul>li>a{
@@ -63,14 +67,50 @@ nav>ul>li>a:hover{
 }
 .contact-btn{
     text-decoration: none;
-    margin-left: 70px;
-    margin-top: -10px;
-    font-size: 1.4rem;
-    font-family: 'Poppins';
-    padding: 10px 20px ;
+    margin-top: 12px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: #ffffff;
-    font-weight: 600;
-    border-radius: 25px;
-    background: linear-gradient(#f1911c, #ffb300);
-    box-shadow: -10px 15px 35px #fdce00e7;
+    padding: 15px 25px;
+    background-color: #fbb511;
+    font-family: "Poppins";
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #fbb511;
+}
+.homeContent{
+    display: flex;
+
+}
+.content-text{
+    width: 50%;
+    padding-top: 15%;
+    padding-left: 3%;
+}
+
+.content-text h1{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: Fresh Steak;
+    letter-spacing: 5px;
+    padding-bottom: 2%;
+}
+.content-text p{
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.span-color{
+    color: #ffb700;
+}
+.images{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+.person{
+    width: 65%;
+    margin-left: 100px;
 }
